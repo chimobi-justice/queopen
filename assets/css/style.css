@@ -59,7 +59,7 @@ body {
     color: #fff;
 }
 #roomSection {
-    padding: 10em 0em 15em 0em;
+    padding: 10em 0em 10em 0em;
 }
 #roomSection > h1 {
     text-align: center;
@@ -79,9 +79,13 @@ body {
     width: 100%;
     height: 300px;
 }
-.roomWrapper > h2 , p {
+.roomWrapper > h2 {
     margin: 10px;
     padding: 5px
+}
+.roomWrapper > .roomContent {
+    padding: 5px;
+    margin: 10px;
 }
 .roomWrapper > .roomAmount {
     color: rgb(143, 142, 142);
@@ -98,4 +102,28 @@ body {
 }
 .roomWrapper > button:hover {
     background: rgb(49, 48, 48);
+}
+#aboutSection {
+    padding: 10px 0px 35px 0px;
+}
+#aboutSection > h1 {
+    text-align: center;
+    padding: 10px 0px 35px 0px;
+}
+#aboutWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+}
+#aboutWrapper > .aboutContent {
+    width: 80%;  
+    margin: 10px;
+    padding: 10px;
+    line-height: 2.0em;
+}
+#aboutWrapper > .aboutImage > img {
+    width: 90%;
+    height: 450px;
+    margin: 10px;
 }
