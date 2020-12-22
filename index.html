@@ -98,15 +98,21 @@
    <div id="contact">
        <h1>contact us</h1>
        <p><i>(To Book The Best Rooms Now)</i></p>
-    <form id="form">
+    <form id="form" method="POST" name="form">
         <input type="text" name="name" id="name" placeholder="Name">
+        <p id="nameMsgFeed" class="errMsgs"></p>
         <input type="email" name="email" id="email" placeholder="Enter a email address">
+        <p id="emailMsgFeed" class="errMsgs"></p>        
         <textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
+        <p id="MsgFeed" class="errMsgs"></p>        
+        <button>Send Booking</button>
     </form>
    </div>
    <footer id="footer">
        <p><small>copyright&copy; 2020 All right reverved queopen | justice foundation &cross;</small></p>
    </footer>
   </div>
+
+  <script src="./assets/src/js/script.js"></script>
 </body>
 </html>

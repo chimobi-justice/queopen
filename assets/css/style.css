@@ -203,6 +203,23 @@ body {
     margin: 15px;
     resize: none;
 }
+#contact > #form > button {
+    width: 96%;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+#contact > #form > button:hover {
+    background: rgb(49, 48, 48);    
+}
+.errMsgs {
+    color: lightcoral;
+    padding-left: 15px;
+}
 #footer {
     background: #000;
     color: #fff;
