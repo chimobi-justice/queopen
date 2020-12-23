@@ -155,6 +155,33 @@ body {
     background: rgb(49, 48, 48);
 }
 
+#featuresCart {
+    width: 30%;
+    margin: 0px auto;
+    padding: 10px;
+    background: #ccc;
+    border: 1px solid #000;
+    display: none;
+}
+#featuresCart > h2 {
+    text-align: center;
+}
+#featuresCart > ul > li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+#featuresCart > button {
+    width: 50%;
+    margin: 25px 0px 10px 6rem;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #000;
+    cursor: pointer;
+    outline: none;
+}
 
 #aboutSection {
     padding: 5em 0em 5em 0em;

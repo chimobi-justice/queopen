@@ -1,3 +1,12 @@
+let featureCart = document.getElementById('featuresCart')
+let allTheList = document.getElementById('listContainer')
+let btn1 = document.getElementById('btn1');
+let btn2 = document.getElementById('btn2');
+let btn3 = document.getElementById('btn3');
+let btn4 = document.getElementById('btn4');
+let btn5 = document.getElementById('btn5');
+let btn6 = document.getElementById('btn6');
+
 let myform = document.getElementById('form');
 let name = document.getElementById('name');
 let email = document.getElementById('email')
@@ -7,6 +16,85 @@ let emailMsgFeed = document.getElementById('emailMsgFeed');
 let MsgFeed = document.getElementById('MsgFeed');
 
 
+if (btn1) {
+    btn1.onclick = () => {
+        let popoutAlert = confirm('Double Room as been added\nDouble bed\nFrom $154');
+            if (popoutAlert === true) {
+                featureCart.style.display = 'block';
+                console.warn('mark check');
+            } else {
+                console.error('cancel check');
+                return false;
+            }
+    } 
+}
+
+if (btn2) {
+    btn2.onclick = () => {
+        let popoutAlert2 = confirm('Single Room as been added\nSingle bed\nFrom $99');
+            if (popoutAlert2 === true) {
+                featureCart.style.display = 'block';
+                console.warn('mark check');
+            } else {
+                console.error('cancel check');
+                return false;
+            }
+    } 
+}
+
+if (btn3) {
+    btn3.onclick = () => {
+        let popoutAlert3 = confirm('Deluxe Room as been added\nMaster side bed\nFrom $197');
+            if (popoutAlert3 === true) {
+                featureCart.style.display = 'block';
+                console.warn('mark check');
+            } else {
+                console.error('cancel check');
+                return false;
+            }
+    }
+}
+
+if (btn4) {
+    btn4.onclick = () => {
+        let popoutAlert4 = confirm('Rest Room as been added\nRest room\nFrom $163');
+            if (popoutAlert4 === true) {
+                featureCart.style.display = 'block';
+                console.warn('mark check');
+            } else {
+                console.error('cancel check');
+                return false;
+            }
+    } 
+}
+
+if (btn5) {
+    btn5.onclick = () => {
+        let popoutAlert5 = confirm('Dining as been added\nSingle Dining room\nFrom $59');
+            if (popoutAlert5 === true) {
+                featureCart.style.display = 'block';
+                console.warn('mark check');
+            } else {
+                console.error('cancel check');
+                return false;
+            }
+    }
+}
+
+if (btn6) {
+    btn6.onclick = () => {
+        let popoutAlert6 = confirm('Super Deluxe Room as been added\nVip Master side bed\nFrom $237');
+            if (popoutAlert6 === true) {
+                featureCart.style.display = 'block';
+                console.warn('mark check');
+            } else {
+                console.error('cancel check');
+                return false;
+            }
+    }
+}
+
+// contact form
 class Form {
     constructor(name,email, message) {
         this.name = name;
