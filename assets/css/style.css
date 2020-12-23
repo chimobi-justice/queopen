@@ -156,23 +156,32 @@ body {
 }
 
 #featuresCart {
-    width: 30%;
+    width: 50%;
     margin: 0px auto;
-    padding: 10px;
+    padding: 15px;
     background: #ccc;
     border: 1px solid #000;
     display: none;
 }
-#featuresCart > h2 {
-    text-align: center;
+#featuresCart > ul#listContainer {
+    list-style: decimal-leading-zero;
+    padding-left: 15px;
 }
-#featuresCart > ul > li {
-    list-style: none;
+#featuresCart > ul#listContainer > li {
     padding: 10px;
     margin: 10px;
 }
+.spanRemove {
+    float: right;
+    color: lightcoral;
+    cursor: pointer;
+}
+#featuresCart > .addBtn {
+    margin-right: 45px;
+    color: red;
+}
 #featuresCart > button {
-    width: 50%;
+    width: 20%;
     margin: 25px 0px 10px 6rem;
     padding: 5px;
     background: #000;
