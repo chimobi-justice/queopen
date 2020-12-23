@@ -21,6 +21,10 @@ if (btn1) {
         let popoutAlert = confirm('Double Room as been added\nDouble bed\nFrom $154');
             if (popoutAlert === true) {
                 featureCart.style.display = 'block';
+                let list = document.createElement('li');
+                let listText = document.createTextNode('Added Double Room');
+                list.append(listText);
+                allTheList.append(list);
                 console.warn('mark check');
             } else {
                 console.error('cancel check');
@@ -34,6 +38,10 @@ if (btn2) {
         let popoutAlert2 = confirm('Single Room as been added\nSingle bed\nFrom $99');
             if (popoutAlert2 === true) {
                 featureCart.style.display = 'block';
+                let list2 = document.createElement('li');
+                let listText2 = document.createTextNode('Added Single Room');
+                list2.append(listText2);
+                allTheList.append(list2);
                 console.warn('mark check');
             } else {
                 console.error('cancel check');
@@ -47,6 +55,10 @@ if (btn3) {
         let popoutAlert3 = confirm('Deluxe Room as been added\nMaster side bed\nFrom $197');
             if (popoutAlert3 === true) {
                 featureCart.style.display = 'block';
+                let list3 = document.createElement('li');
+                let listText3 = document.createTextNode('Added Deluxe Room');
+                list3.append(listText3);
+                allTheList.append(list3);
                 console.warn('mark check');
             } else {
                 console.error('cancel check');
@@ -60,6 +72,10 @@ if (btn4) {
         let popoutAlert4 = confirm('Rest Room as been added\nRest room\nFrom $163');
             if (popoutAlert4 === true) {
                 featureCart.style.display = 'block';
+                let list4 = document.createElement('li');
+                let listText4 = document.createTextNode('Added Rest Room');
+                list4.append(listText4);
+                allTheList.append(list4);
                 console.warn('mark check');
             } else {
                 console.error('cancel check');
@@ -73,6 +89,10 @@ if (btn5) {
         let popoutAlert5 = confirm('Dining as been added\nSingle Dining room\nFrom $59');
             if (popoutAlert5 === true) {
                 featureCart.style.display = 'block';
+                let list5 = document.createElement('li');
+                let listText5 = document.createTextNode('Added Dining Room');
+                list5.append(listText5);
+                allTheList.append(list5);
                 console.warn('mark check');
             } else {
                 console.error('cancel check');
@@ -86,6 +106,10 @@ if (btn6) {
         let popoutAlert6 = confirm('Super Deluxe Room as been added\nVip Master side bed\nFrom $237');
             if (popoutAlert6 === true) {
                 featureCart.style.display = 'block';
+                let list6 = document.createElement('li');
+                let listText6 = document.createTextNode('Added Super Deluxe Room');
+                list6.append(listText6);
+                allTheList.append(list6);
                 console.warn('mark check');
             } else {
                 console.error('cancel check');
