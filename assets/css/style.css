@@ -106,13 +106,14 @@ body {
     padding: 5px;
     width: 92%;
     font-size: 18px;
-    background: #000;
+    background: rgb(93, 241, 93);
     color: #fff;
-    border: 1px solid #000;
+    border: 1px solid rgb(93, 241, 93);
     cursor: pointer;
 }
 .roomWrapper > button:hover {
-    background: rgb(49, 48, 48);
+    background: lightgreen;
+    border: 1px solid lightgreen;
 }
 /* dining section */
 #diningHolder {
@@ -146,16 +147,17 @@ body {
     padding: 5px;
     width: 92%;
     font-size: 18px;
-    background: #000;
+    background: rgb(93, 241, 93);
     color: #fff;
-    border: 1px solid #000;
+    border: 1px solid rgb(93, 241, 93);
     cursor: pointer;
 }
 .diningWrapper > button:hover {
-    background: rgb(49, 48, 48);
+    background: lightgreen;
+    border: 1px solid lightgreen;
 }
 
-#featuresCart {
+/* #featuresCart {
     width: 50%;
     margin: 0px auto;
     padding: 15px;
@@ -190,7 +192,7 @@ body {
     border: 1px solid #000;
     cursor: pointer;
     outline: none;
-}
+} */
 
 #aboutSection {
     padding: 5em 0em 5em 0em;
